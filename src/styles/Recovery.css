@@ -1,0 +1,53 @@
+/* Estilos del Recovery */
+.recovery_section_container{
+    width: 100%;
+    margin-bottom: 3vh;
+}
+.recovery_section_container > .section_container_title{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--secondary);
+}
+.section_container_form{
+    margin-bottom: 15vh;
+}
+.form_user{
+    display: block;
+}
+.form_otp{
+    display: none;
+}
+.form_pass{
+    display: none;
+}
+.section_container_form > .form_input{
+    display: block;
+    width: 300px;
+    margin: 2vh auto;
+    background: #F0F0F0;
+    border: none;
+    border-radius: 2vh;
+    border-bottom: 2px solid var(--secondary);
+    font-size: 1.1rem;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center left 20px;
+    padding: 1rem 1rem 1rem 60px;
+    outline: none;
+}
+.section_container_form > .form_input:focus{
+    border-bottom: 2px solid var(--princypal);
+}
+.section_container_form > .type_user{
+    background-image: url(../images/icons/Email.svg);
+}
+.section_container_form > .type_password{
+    background-image: url(../images/icons/Password.svg);
+}
+.section_container_form > .type_code{
+    background-image: url(../images/icons/Code.svg);
+}

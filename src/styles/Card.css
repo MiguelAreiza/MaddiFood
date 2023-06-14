@@ -1,0 +1,97 @@
+/* Estilos de CardTemplate */
+.card_container{
+    display: block;
+    width: 280px;
+    margin: .8rem;
+    background: #fff;
+    border: none;
+    border-radius: 3vh;    
+    scroll-snap-align: center;
+    transition: .6s;
+}
+.card_header > .card_image{
+    display: block;
+    width: 60px;
+    margin: 3vh auto 1vh;
+}
+.card_header > .card_title{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.product_image{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 2vh auto;
+    border-radius: 2vh;
+}
+.product_details{
+    width: 100%;
+    padding: 0 3vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_name{
+    display: block;
+    width: 100%;
+    height: 50px;
+    max-height: 50px;
+    overflow: hidden;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.product_description{
+    overflow: hidden;
+    margin: 3px 0 1.5vh;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: .9rem;
+}
+.product_price{    
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card_options{
+    display: flex;
+    border-radius: 0 0 2vh 2vh;
+    overflow: hidden;
+    margin-top: 1.5vh;
+}
+.card_options > .option_edit, .card_options > .option_delete{
+    width: 50%;
+    padding: 2vh 2vh 2vh 6vh;
+    background: #fff;
+    text-align: center;
+    color: #000;
+    background-size: 25px;
+    background-position: center left 2vh;
+    background-repeat: no-repeat;
+    border: none;
+    border-top: 1px dashed #ccc;
+    font-size: .9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.card_options > .option_edit{
+    border-right: 1px dashed #ccc;
+    background-image: url('../images/icons/Edit.svg');
+}
+.card_options > .option_delete{
+    background-image: url('../images/icons/Delete.svg');
+}
+.option_delete:hover, .option_edit:hover{
+    background-position: center left 3.5vh;
+    background-size: 27px;
+    font-weight: 800;
+}
+.container_cards{
+    width: 100%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

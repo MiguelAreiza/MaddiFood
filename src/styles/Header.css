@@ -1,0 +1,41 @@
+/* Estilos del Header */
+.header{
+    width: 100%;
+    margin: 4rem auto 2vh;
+}
+.header_logo{
+    display: block;
+    margin: auto;
+    width: 70px;
+}
+.header_name{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--secondary);
+}
+.header_title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-top: -.7rem;
+    color: var(--princypal);
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .header_logo{
+        width: 60px;
+    }
+    .header_name{
+        font-size: 2.8rem;
+    }
+    .header_title{
+        font-size: 2rem;
+        margin-top: -.8rem;
+    }
+}
