@@ -56,9 +56,9 @@
 	"dir": "ltr",
 	"lang": "es-CO",
 	"orientation": "portrait",
+	"serviceworker":"/service-worker.js",
 	"prefer_related_applications": false,
-	"protocol_handlers": [
-		
+	"protocol_handlers": [		
 	],
 	"scope": "/",
 	"screenshots": [
