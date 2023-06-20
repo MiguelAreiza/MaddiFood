@@ -38,6 +38,7 @@ function LandingPage() {
     return (
         <div className="landingPage">
             <Header landingPage />
+            
             <button onClick={handleclick}>Login</button>
         </div>
     );
