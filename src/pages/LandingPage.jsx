@@ -1,13 +1,11 @@
 import React from 'react';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 // import axios from 'axios';
 
 // Components
 import { useAppStates } from '../components/AppContext';
 // import { useAuth } from '../components/auth';
-import { Menu } from '../components/Menu';
-// import { Header } from '../components/Header';
-// import { Button } from '../components/Button';
+import { Header } from '../components/Header';
 
 // Styles
 import '../styles/LandingPage.css';
@@ -19,9 +17,11 @@ function LandingPage() {
 
     const { setIsLoading, addToastr } = useAppStates();
     // const auth = useAuth();
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     React.useEffect( () => {
+        document.querySelector("head > meta[name='theme-color']").content = '#ffffff';
+        document.querySelector("head > meta[name='background_color']").content = '#ffffff';
         setTimeout(() => {            
             setIsLoading(false);
             addToastr('Bienvenido');
@@ -29,9 +29,16 @@ function LandingPage() {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
+    const handleclick = () => {
+        document.querySelector("head > meta[name='theme-color']").content = '#323232';
+        document.querySelector("head > meta[name='background_color']").content = '#323232';
+        navigate('/auth');
+    }
+
     return (
         <div className="landingPage">
-            <Menu path='/auth' />
+            <Header landingPage />
+            <button onClick={handleclick}>Login</button>
         </div>
     );
 
