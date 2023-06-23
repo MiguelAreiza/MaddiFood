@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.05f13faa.css",
-    "main.js": "/static/js/main.50d0cc4b.js",
+    "main.css": "/static/css/main.96c7b66a.css",
+    "main.js": "/static/js/main.466d5f92.js",
     "static/js/787.4acf1f93.chunk.js": "/static/js/787.4acf1f93.chunk.js",
+    "static/media/Phones.svg": "/static/media/Phones.638bd083dc5d563f692d95f557f13c64.svg",
+    "static/media/Banner_mobile.svg": "/static/media/Banner_mobile.83653a815dc3c8867dfc700c51416be3.svg",
     "static/media/Pagina404.svg": "/static/media/Pagina404.3bb05720f27e1ebffb7017f2ce840ed8.svg",
     "service-worker.js": "/service-worker.js",
     "static/media/NavbarLogo.svg": "/static/media/NavbarLogo.153be17d63d70c97a122ddc6ff8878eb.svg",
@@ -27,22 +29,26 @@
     "static/media/Vector2.svg": "/static/media/Vector2.d81e6556134271f56eded66ab8304a95.svg",
     "static/media/Headquarters.svg": "/static/media/Headquarters.39a34e44662dca6991017676e3076b2f.svg",
     "static/media/LogOut.svg": "/static/media/LogOut.f8d8b59f726177ce52c3.svg",
+    "static/media/MenuService.svg": "/static/media/MenuService.fa890fdf7684888962226ef2e501c979.svg",
     "static/media/Email.svg": "/static/media/Email.8fad38259bb6fa4da99d.svg",
     "static/media/PasswordWhite.svg": "/static/media/PasswordWhite.0034ffb2b32660d081c9.svg",
+    "static/media/PedidosService.svg": "/static/media/PedidosService.ae54c7c435532bff0a24b5c88766178d.svg",
     "static/media/Warning.svg": "/static/media/Warning.e32e22df8aad158f4865.svg",
+    "static/media/AdminPanelService.svg": "/static/media/AdminPanelService.ae39c65cdacb7d12459938b7bf1dc0ec.svg",
     "static/media/Vector1.svg": "/static/media/Vector1.e583277bcefb3ed34070eeef1681d996.svg",
     "static/media/Password.svg": "/static/media/Password.705831bd976316bce9f4.svg",
+    "static/media/ContabilidadService.svg": "/static/media/ContabilidadService.648539f12d599567194c0f0309163210.svg",
     "static/media/Upload.svg": "/static/media/Upload.967e9db6499c2cd0b8fe.svg",
     "static/media/Back.svg": "/static/media/Back.09075d083461a64a1072.svg",
-    "static/media/Arrow.svg": "/static/media/Arrow.42dc5747a94e0affb464.svg",
+    "static/media/Arrow.svg": "/static/media/Arrow.768181d40948556801a8.svg",
     "static/media/Menu.svg": "/static/media/Menu.14488283a8e086fc12c810dc59d171c0.svg",
     "static/media/Add.svg": "/static/media/Add.13adb36f0758a74efa1d.svg",
-    "main.05f13faa.css.map": "/static/css/main.05f13faa.css.map",
-    "main.50d0cc4b.js.map": "/static/js/main.50d0cc4b.js.map",
+    "main.96c7b66a.css.map": "/static/css/main.96c7b66a.css.map",
+    "main.466d5f92.js.map": "/static/js/main.466d5f92.js.map",
     "787.4acf1f93.chunk.js.map": "/static/js/787.4acf1f93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05f13faa.css",
-    "static/js/main.50d0cc4b.js"
+    "static/css/main.96c7b66a.css",
+    "static/js/main.466d5f92.js"
   ]
 }
