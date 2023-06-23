@@ -53,8 +53,8 @@ function Header({ landingPage, logo, title}) {
                             <button className='optNavbar optNavbarSelected' >Inicio</button>
                             <button className='optNavbar' >Servicios</button>
                             <button className='optNavbar' >Nosotros</button>
-                            <button className='optNavbar' >Precios</button>
                             <button className='optNavbar' >Contacto</button>
+                            <button className='optNavbar' >Administrador</button>
                         </div>
                         <div className='navbar_rigth'>
                             <img src={imgMenu} onClick={handleClickMenu} alt='Menu MaddiFood' draggable='false' />
@@ -62,8 +62,8 @@ function Header({ landingPage, logo, title}) {
                                 <button className='optMenu optMenuSelected' >Inicio</button>
                                 <button className='optMenu' >Servicios</button>
                                 <button className='optMenu' >Nosotros</button>
-                                <button className='optMenu' >Precios</button>
                                 <button className='optMenu' >Contacto</button>    
+                                <button className='optMenu' >Administrador</button>
                             </div>
                         </div>
                     </header>
